@@ -10,6 +10,7 @@ import BrowseEvents from "../components/Tasks/BrowseEvents";
 import EventDetails from "../components/Tasks/EventDetails";
 import MyEvents from "../components/Tasks/MyEvents";
 import UpdateEvent from "../components/Tasks/UpdateEvent";
+import About from "../pages/About";
 
 export default function AppRoutes() {
   const user = JSON.parse(localStorage.getItem("user"));
@@ -19,6 +20,7 @@ export default function AppRoutes() {
     <Routes>
       {/* Public Routes */}
       <Route path="/" element={<Home />} />
+      <Route path="/about" element={<About></About>} />
       <Route path="/browse-events" element={<BrowseEvents />} />
       <Route path="/404" element={<NotFound />} />
       <Route path="*" element={<Navigate to="/404" />} />
