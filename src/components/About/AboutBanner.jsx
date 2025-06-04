@@ -8,7 +8,7 @@ const AboutBanner = () => {
 
       {/* Centered Text */}
       <div className="absolute inset-0 flex items-center justify-center text-white text-2xl lg:text-5xl font-bold">
-        About Us test
+        About Us
       </div>
     </div>
   );
