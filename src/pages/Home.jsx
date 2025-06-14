@@ -4,6 +4,7 @@ import AppPromo from "../components/AppPromo/AppPromo";
 import Youtube from "../components/Youtube/Youtube";
 import ServiceCards from "../components/Tasks/Featured";
 import ReviewsCarousel from "../components/Tasks/ReviewsCarousel";
+import Provide from "../components/Provide/Provide";
 
 const Home = () => {
   return (
@@ -11,7 +12,7 @@ const Home = () => {
       style={{ backgroundColor: "var(--bg-color)", color: "var(--text-color)" }}
     >
       <Hero />
-      <PopularCategories />
+      <Provide></Provide>
       <ServiceCards />
       <Youtube></Youtube>
       <AppPromo />

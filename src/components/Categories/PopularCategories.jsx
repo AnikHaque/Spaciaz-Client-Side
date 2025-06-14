@@ -3,27 +3,13 @@ import React from "react";
 const categories = [
   {
     title: "Cricket",
-    image: "https://img.pikbest.com/origin/10/07/00/23gpIkbEsTKfe.png!bw700",
+    image:
+      "https://static.vecteezy.com/system/resources/thumbnails/028/642/325/small_2x/professional-engineer-in-protective-helmet-and-blueprints-paper-at-house-building-construction-site-photo.jpg",
   },
   {
     title: "Football",
     image:
       "https://e7.pngegg.com/pngimages/767/690/png-clipart-bookmaker-sport-ukraine-national-football-team-game-football-players-game-sports-equipment-thumbnail.png",
-  },
-  {
-    title: "Batminton",
-    image:
-      "https://e7.pngegg.com/pngimages/265/469/png-clipart-female-badminton-player-badminton-display-resolution-badminton-player-tshirt-image-file-formats-thumbnail.png",
-  },
-  {
-    title: "Wrestling",
-    image:
-      "https://www.pngall.com/wp-content/uploads/11/Wrestling-Competition-PNG-File.png",
-  },
-  {
-    title: "Golf",
-    image:
-      "https://png.pngtree.com/png-clipart/20220124/ourmid/pngtree-golf-man-cartoon-golf-vector-layered-map-png-image_4261704.png",
   },
 ];
 
