@@ -4,9 +4,9 @@ const slides = [
   {
     id: 1,
     image:
-      "https://demo2.themelexus.com/adventis/wp-content/uploads/2023/10/h1-bg02.jpg",
-    title: "The Easiest Way to Get Your New Task",
-    desc: "Work with talented people at the most affordable price to get the most out of your time and cost",
+      "https://demo2.wpopal.com/spaciaz/wp-content/uploads/2025/03/h5-bg.jpg",
+    title: "Building experiences worth repeating",
+    desc: "We are a top 25 builder and developer fully invested in our customers’ success and improving the communities we serve.",
     btn1: "Subscribe Now",
     btn2: "Learn More",
   },

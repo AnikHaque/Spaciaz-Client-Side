@@ -80,49 +80,58 @@ export default function Navbar() {
           <div className="flex flex-col md:flex-row md:items-center space-y-2 md:space-y-0 md:space-x-6">
             <Link
               to="/"
-              className={`block py-1 ${
-                isActive("/") ? "font-semibold underline" : ""
+              className={`block font-bold py-1 ${
+                isActive("/") ? "font-bold underline" : ""
               }`}
             >
               Home
             </Link>
 
             <Link
-              to="/browse-events"
-              className={`block py-1 ${
-                isActive("/browse-events") ? "font-semibold underline" : ""
+              to="/services"
+              className={`block font-bold py-1 ${
+                isActive("/services") ? "font-bold underline" : ""
               }`}
             >
-              Browse Events
+              Services
+            </Link>
+
+            <Link
+              to="/projects"
+              className={`block font-bold py-1 ${
+                isActive("/projects") ? "font-bold underline" : ""
+              }`}
+            >
+              Projects
             </Link>
 
             {/* Profile Dropdown */}
             <div className="relative">
               <button
                 onClick={() => setIsOpen((prev) => !prev)}
-                className="flex items-center gap-1 py-1 hover:underline focus:outline-none"
+                className="flex items-center gap-1 py-1 hover:underline focus:outline-none font-bold"
               >
-                Profile <span className="text-sm">▼</span>
+                Pages <span className="text-sm">▼</span>
               </button>
               {isOpen && (
                 <div className="absolute bg-white text-black rounded shadow-md mt-2 py-2 w-40 z-20">
                   <Link
                     to="/add-event"
-                    className="block px-4 py-2 hover:bg-gray-100"
+                    className="block px-4 py-2 hover:bg-gray-100 font-bold"
                     onClick={() => setIsOpen(false)}
                   >
                     Create Event
                   </Link>
                   <Link
                     to="/my-events"
-                    className="block px-4 py-2 hover:bg-gray-100"
+                    className="block px-4 py-2 hover:bg-gray-100 font-bold"
                     onClick={() => setIsOpen(false)}
                   >
                     My Events
                   </Link>
                   <Link
                     to="/my-bookings"
-                    className="block px-4 py-2 hover:bg-gray-100"
+                    className="block px-4 py-2 hover:bg-gray-100 font-bold"
                     onClick={() => setIsOpen(false)}
                   >
                     My Bookings
@@ -166,7 +175,7 @@ export default function Navbar() {
                   )}
                   <button
                     onClick={logout}
-                    className="bg-red-500 hover:bg-red-600 px-3 py-1 rounded"
+                    className="bg-red-500 hover:bg-red-600 px-3 py-1 rounded font-bold"
                   >
                     Logout
                   </button>
@@ -176,13 +185,13 @@ export default function Navbar() {
               <div className="flex items-center gap-2">
                 <Link
                   to="/login"
-                  className="bg-green-500 px-3 py-1 rounded hover:bg-green-600 transition text-center"
+                  className="bg-[#e4ed64] px-3 py-1 rounded hover:bg-green-600 transition text-center text-black font-bold"
                 >
                   Login
                 </Link>
                 <Link
                   to="/register"
-                  className="bg-blue-500 px-3 py-1 rounded hover:bg-blue-600 transition text-center"
+                  className="bg-white text-black font-bold px-3 py-1 rounded hover:bg-blue-600 transition text-center"
                 >
                   Signup
                 </Link>
