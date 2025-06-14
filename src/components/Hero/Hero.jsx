@@ -1,5 +1,3 @@
-import React from "react";
-
 const slides = [
   {
     id: 1,
@@ -13,8 +11,8 @@ const slides = [
   {
     id: 2,
     image:
-      "https://png.pngtree.com/thumb_back/fh260/background/20220427/pngtree-home-office-banner-freelance-work-image_1091574.jpg",
-    title: "The Easiest Way to Get Your New Job",
+      "https://demo2.wpopal.com/spaciaz/wp-content/uploads/2025/03/h1_bg.jpg",
+    title: "Shaping future through excellence",
     desc: "Work with talented people at the most affordable price to get the most out of your time and cost",
     btn1: "Explore",
     btn2: "Subscribe",
@@ -22,8 +20,8 @@ const slides = [
   {
     id: 3,
     image:
-      "https://cdn.vectorstock.com/i/1000v/40/06/futuristic-devops-process-banner-vector-41714006.jpg",
-    title: "Essential Security Kits",
+      "https://demo2.wpopal.com/spaciaz/wp-content/uploads/2025/03/h2_bg.jpg",
+    title: "Real Estate, Hospitality & Construction",
     desc: "Gear up for your next outdoor devops in style.",
     btn1: "Get Subscription",
     btn2: "See Tips",
