@@ -60,10 +60,10 @@ const Hero = () => {
                   {slide.desc}
                 </p>
                 <div className="flex justify-center gap-4 flex-wrap">
-                  <button className="bg-blue-500 hover:bg-blue-600 px-6 py-2 rounded text-white font-semibold transition">
+                  <button className="bg-[#e4ed64] hover:bg-blue-600 px-6 py-2 rounded text-black font-semibold transition">
                     {slide.btn1}
                   </button>
-                  <button className="bg-white hover:bg-gray-200 text-blue-600 px-6 py-2 rounded font-semibold transition">
+                  <button className="bg-white hover:bg-gray-200 text-black px-6 py-2 rounded font-semibold transition">
                     {slide.btn2}
                   </button>
                 </div>
