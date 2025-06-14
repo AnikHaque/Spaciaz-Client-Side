@@ -56,12 +56,12 @@ export default function Navbar() {
   const isActive = (path) => location.pathname === path;
 
   return (
-    <nav className="bg-[#313f2a] text-white px-4 py-4 shadow-md">
+    <nav className="bg-[#697176] text-white px-6 py-6 shadow-md">
       <div className="container mx-auto flex flex-wrap items-center justify-between">
         <Link to="/" className="text-xl font-bold">
           <img
-            src="https://demo2.themelexus.com/adventis/wp-content/uploads/2023/10/logo.svg"
-            className="w-20"
+            src="https://demo2.wpopal.com/spaciaz/wp-content/uploads/2025/03/logo_white.svg"
+            className="w-32"
           ></img>
         </Link>
 
