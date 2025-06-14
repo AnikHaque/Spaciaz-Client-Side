@@ -53,7 +53,7 @@ const Hero = () => {
             {/* Centered overlay content */}
             <div className="absolute inset-0 bg-[rgba(255,165,0,0.40)] flex justify-center items-center">
               <div className="text-white text-center px-4 md:px-8">
-                <h2 className="text-3xl md:text-6xl font-bold mb-4">
+                <h2 className="text-3xl md:text-7xl font-bold mb-4">
                   {slide.title}
                 </h2>
                 <p className="text-lg md:text-xl mb-6 max-w-xl mx-auto">
