@@ -14,9 +14,9 @@ const Home = () => {
     >
       <Hero />
       <Provide></Provide>
+      <Services></Services>
       <ServiceCards />
       <Youtube></Youtube>
-      <Services></Services>
       <AppPromo />
       <ReviewsCarousel></ReviewsCarousel>
     </div>
