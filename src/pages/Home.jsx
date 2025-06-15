@@ -5,6 +5,7 @@ import Youtube from "../components/Youtube/Youtube";
 import ServiceCards from "../components/Tasks/Featured";
 import ReviewsCarousel from "../components/Tasks/ReviewsCarousel";
 import Provide from "../components/Provide/Provide";
+import Services from "../components/Services/Services";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Provide></Provide>
       <ServiceCards />
       <Youtube></Youtube>
+      <Services></Services>
       <AppPromo />
       <ReviewsCarousel></ReviewsCarousel>
     </div>
